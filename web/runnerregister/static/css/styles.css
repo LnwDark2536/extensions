@@ -1,0 +1,115 @@
+.logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+.steps-content {
+  margin-top: 16px;
+  border: 1px dashed #e9e9e9;
+  border-radius: 6px;
+  background-color: #fafafa;
+  min-height: 200px;
+  /* text-align: center; */
+  padding: 40px 20px;
+}
+
+.steps-action {
+  margin-top: 24px;
+}
+
+.ant-btn-success {
+  color: #fff;
+  background-color: #37ba00;
+  border-color: #37ba00;
+}
+
+.ant-btn-success:hover {
+  color: #fff;
+  background-color: #3fc705;
+  border-color: #3fc705;
+}
+
+.ant-card {
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.ant-card:hover {
+  /* box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.ant-card .ant-steps-item-process .ant-steps-item-icon {
+  background: rgb(136, 136, 136);
+  border-color: #6d6d6d;
+  font-weight: 200;
+}
+
+.avatar-uploader > .ant-upload {
+  width: 128px;
+  height: 128px;
+}
+
+.ant-upload-select-picture-card i {
+  font-size: 32px;
+  color: #999;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  color: #666;
+}
+
+.ant-upload.ant-upload-select-picture-card p.ant-upload-drag-icon .anticon {
+  font-size: 48px;
+  color: rgb(64, 169, 255);
+}
+
+.ant-upload.ant-upload-select-picture-card {
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border-width: 1px;
+  border-style: dashed;
+  border-color: rgb(217, 217, 217);
+  border-image: initial;
+  transition: border-color 0.3s;
+  border-radius: 4px;
+  padding: 16px 0px;
+  background: rgb(250, 250, 250);
+}
+.ant-upload.ant-upload-select-picture-card p.ant-upload-text {
+  font-size: 16px;
+  margin: 0 0 4px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.vertical-center-modal {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.vertical-center-modal:before {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  width: 0;
+}
+
+.vertical-center-modal .ant-modal {
+  display: inline-block;
+  vertical-align: middle;
+  top: 0;
+  text-align: left;
+  width: 90% !important;
+}
+.ant-select {
+  display: block !important;
+}
